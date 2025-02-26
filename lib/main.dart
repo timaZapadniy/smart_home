@@ -6,6 +6,8 @@ void main() {
 }
 
 class SmartHomeApp extends StatefulWidget {
+  const SmartHomeApp({super.key});
+
   @override
   _SmartHomeAppState createState() => _SmartHomeAppState();
 }
@@ -41,7 +43,7 @@ class _SmartHomeAppState extends State<SmartHomeApp> {
 
   Last Button Pressed: $lastButtonPressed
   """,
-            style: TextStyle(
+            style: const TextStyle(
                 fontFamily: 'Courier', color: Colors.green, fontSize: 16),
           ),
         ),
